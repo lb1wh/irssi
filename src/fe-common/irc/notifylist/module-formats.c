@@ -28,7 +28,7 @@ FORMAT_REC fecommon_irc_notifylist_formats[] =
 	/* ---- */
 	{ NULL, "Notifylist", 0 },
 
-	{ "notify_join", "{nick $0} [$1@$2] [{hilight $3}] has joined to $4", 5, { 0, 0, 0, 0, 0 } },
+	{ "notify_join", "{nick $0} [$1@$2] [{hilight $3}] has joined $4", 5, { 0, 0, 0, 0, 0 } },
 	{ "notify_part", "{nick $0} has left $4", 5, { 0, 0, 0, 0, 0 } },
 	{ "notify_away", "{nick $0} [$5] [$1@$2] [{hilight $3}] is now away: $4", 6, { 0, 0, 0, 0, 0, 0 } },
 	{ "notify_unaway", "{nick $0} [$4] [$1@$2] [{hilight $3}] is now unaway", 5, { 0, 0, 0, 0, 0 } },
